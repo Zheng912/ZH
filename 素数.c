@@ -2,17 +2,17 @@
 int main(void)
 {
 	int d, n;
-	printf("ÇëÊäÈëÒ»¸öÊı£º");
+	printf("è¯·è¾“å…¥ä¸€ä¸ªæ•°å­—ï¼š");
 	scanf("%d", &n);
 	
 	for(d=2; d<n; d++){
-	  if (n % d == 0) 
+	  if (n % d == 0)//ä»2å¼€å§‹å¾€ä¸Šé™¤ 
 	  break;
 }
     if (d < n)
-	printf("%dÄÜ±»%dÕû³ı", n, d);
+	printf("%dèƒ½è¢«%dæ•´é™¤", n, d);
 	else 
-	printf("%dÊÇËØÊı", n); 
+	printf("%dæ˜¯ç´ æ•°", n); 
 	
 	return 0;
 	  
